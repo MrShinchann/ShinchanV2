@@ -14,19 +14,19 @@ white='\e[1;37m'
 red='\e[1;31m'
 yellow='\e[1;33m'
 
-##################################################
-## CTRL C Oke 
-##################################################
+###################################################
+# CTRL C
+###################################################
 trap ctrl_c INT
 ctrl_c() {
 clear
 echo -e $red"[#]> (Ctrl + C ) Terdetect Exit.... "
 sleep 1
 echo ""
-echo -e $green"[#]> THanks Udah Makai Iya Bro..!"
+echo -e $green"[#]> THanks Udah Makai Iya Bro.."
 sleep 1
 echo ""
-echo -e $white"[#]> Mr Shinchann IN Here..! "
+echo -e $white"[#]> Mr Shinchann IN Here.. "
 read enter
 exit
 }
